@@ -1,29 +1,18 @@
 #include <stdio.h>
 int main(){
 
-   int Carta;
-   char Estado[50];
-   char Codigo[10];
-   char cidade[50];
-   int Populacao;
-   float Area;
-   float Pib;
-   int turisticos;
+   int Carta1;
+   char Estado1[50];
+   char Codigo1[10];
+   char Cidade1[50];
+   int Populacao1;
+   float Area1;
+   float Pib1;
+   int pontosTuristicos1;
 
-   printf("Carta:\n");
-   scanf("%d" ,&Carta);
+   printf("Digite o nome da cidade para a Carta 1: ");
+   scanf("%s[^\\n]" ,&Cidade1);
 
-   printf("Estado:\n");
-   scanf("%s",&Estado);
-
-   printf("Codigo:\n");
-   scanf("%f",&Codigo);
-
-   printf("Cidade:\n");
-   scanf("%s", &Cidade);
-
-   printf("Populacao:\n");
-   scanf("%d", %Populacao);
-   
-
+   printf("")
 }
+   
