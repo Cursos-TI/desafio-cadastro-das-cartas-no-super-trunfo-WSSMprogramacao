@@ -10,16 +10,16 @@ int main(){
    //printf("--Dados da Carta 1--");
 
    printf("Digite o nome o Estado da Carta 1: ");
-   scanf("%s" ,Cidade1);
-
-   printf("Digite a Cidade da carta 1: ");
    scanf("%s" ,Estado1);
 
-   printf("Digite a populacao da carta 1: ");
-   scanf("%d" ,&Populacao1);   
-    
+   printf("Digite a Cidade da carta 1: ");
+   scanf("%s" ,Cidade1);
+      
    printf("Digite o Codigo da carta 1: ");
-   scanf("%s" ,Codigo1);
+   scanf("%4s" ,Codigo1);
+
+   printf("Digite a populacao da carta 1");
+   scanf("%d", &Populacao1);
 
    printf("Digite a area Km2 da carta 1: ");
    scanf("%f" ,&Area1);
@@ -58,7 +58,7 @@ printf("Digite a Cidade da carta 2: ");
 scanf("%s", Cidade2);
 
 printf("Digite o Código da carta 2: ");
-scanf("%s" , Código2);
+scanf("%4s" , Código2);
 
 printf("Digite a população da carta 2: ");
 scanf("%d", &População2);
