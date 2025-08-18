@@ -4,8 +4,8 @@ int main(){
    char Estado1[50];
    char Codigo1[5];
    char Cidade1[50];
-   int Populacao1, pontosTuristicos1;
-   float Area1, Pib1;
+   int  pontosTuristicos1;
+   float Area1, Pib1, Populacao1,Densidade populacional1,Pibpercapita1;
 
    //printf("--Dados da Carta 1--");
 
@@ -38,6 +38,12 @@ int main(){
    printf("Area km2: %f\n", Area1);
    printf("Pib: %f\n", Pib1);
    printf("pontosTuristicos: %d\n" ,pontosTuristicos1);
+   printf("Densidade populacional: %f\n" ,Populacao1, Area1);
+   printf("Pib per capita: %f\n", Pib1, Populacao1);
+   Resultado = (float)(Populacao1/Area1);
+   Resultado = (float)(Pib1/Populacao1);
+
+
 
 
 
