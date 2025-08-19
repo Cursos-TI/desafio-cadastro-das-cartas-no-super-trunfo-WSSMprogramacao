@@ -1,13 +1,14 @@
-#include <stdio.h>
-/// @brief 
-/// @return 
+#include <stdio.h> 
 int main(){
+
+
 // ****"DESAFIO DAS CARTAS NO SUPER TRUNFO"**** 
    char Estado1[50];
    char Codigo1[5];
    char Cidade1[50];
    int  Turisticos1;
-   float Area1, Pib1, Populacao1;
+   float Area1, Pib1; 
+   unsigned long int Populacao1;
    float Densidade1,Carpita1;
  
    //printf("--Dados da Carta 1--");
@@ -22,7 +23,7 @@ int main(){
    scanf("%4s" ,Codigo1);
 
    printf("Digite a populacao da carta 1: ");
-   scanf("%f", &Populacao1);
+   scanf("%ld", &Populacao1);
 
    printf("Digite a area Km2 da carta 1: ");
    scanf("%f" ,&Area1);
@@ -36,7 +37,7 @@ int main(){
    printf("--Dados da carta 1--\n"); 
    printf("Estado: %s\n", Estado1);
    printf("Cidade: %s\n", Cidade1);
-   printf("Populacao : %.3f\n", Populacao1);
+   printf("Populacao : %ld\n", Populacao1);
    printf("Codigo: %s\n", Codigo1);
    printf("Area km2: %.0f\n", Area1);
    printf("Pib: %.2f\n", Pib1);
@@ -53,7 +54,8 @@ int main(){
    char Codigo2[5];
    char Cidade2[50];
    int  Turisticos2;
-   float Area2, Pib2, Populacao2;
+   float Area2, Pib2;
+   unsigned long int Populacao2;
    float Densidade2,Carpita2;
  
    //printf("--Dados da Carta 2--");
@@ -68,7 +70,7 @@ int main(){
    scanf("%4s" ,Codigo2);
 
    printf("Digite a populacao da carta 2: ");
-   scanf("%f", &Populacao2);
+   scanf("%ld", &Populacao2);
 
    printf("Digite a area Km2 da carta 2: ");
    scanf("%f" ,&Area2);
@@ -82,7 +84,7 @@ int main(){
    printf("--Dados da carta 2--\n"); 
    printf("Estado: %s\n", Estado2);
    printf("Cidade: %s\n", Cidade2);
-   printf("Populacao : %.3f\n", Populacao2);
+   printf("Populacao : %ld\n", Populacao2);
    printf("Codigo: %s\n", Codigo2);
    printf("Area km2: %.0f\n", Area2);
    printf("Pib: %.2f\n", Pib2);

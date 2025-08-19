@@ -25,14 +25,21 @@ int main(){
     int resultadoA, resultadoB;
 
     //Exibir as informacoes do produto
-    printf("Produto %d tem em estoque %u e o valor unitario é %.2f\n" , produtoA, estoqueA, valorA);
-    printf("Produto %d tem em estoque %u e o valor unitario é %.2f\n" , produtoB, estoqueB, valorB); 
+    printf("Produto %s tem em estoque %u e o valor unitario é R$ %.2f\n" , produtoA, estoqueA, valorA);
+    printf("Produto %s tem em estoque %u e o valor unitario é R$ %.2f\n" , produtoB, estoqueB, valorB); 
     
     //Comparacoes com valor minimo de estoque
-    resultado = estoqueA > estoqueMinimo;
-    resultado = estoqueB > estoqueMinimo;
+    resultadoA = estoqueA > estoqueMinimoA;
+    resultadoB = estoqueB > estoqueMinimoB;
+
+    printf("Produto %s tem estoque minimo %d\n" , produtoA, resultadoA);
+    printf("Produto %s tem estoque minimo %d\n" , produtoB, resultadoB);
+    
     
     //Comparacoes com valores  totais de produtos
+
+    printf("Os valor TOTAL de A é:(R$ %.2f), é maior que valor TOTAL de B (R$ %.2f): %d\n", estoqueA*valorA, estoqueB*valorB,
+    (estoqueA*valorA)>(estoqueB*valorB));
     
     
 
