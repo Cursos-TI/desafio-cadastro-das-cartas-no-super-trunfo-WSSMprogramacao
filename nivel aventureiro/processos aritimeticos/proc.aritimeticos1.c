@@ -30,6 +30,8 @@ printf("Resultado : %d\n" ,resultado);
 resultado /= 2;
 printf("Resultado : %d\n" ,resultado);
 
+return 0;
+
 
 
 
