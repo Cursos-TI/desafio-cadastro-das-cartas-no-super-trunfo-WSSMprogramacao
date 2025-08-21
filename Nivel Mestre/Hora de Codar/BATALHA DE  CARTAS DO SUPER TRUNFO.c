@@ -8,10 +8,12 @@ int main(){
    char Cidade1[50];
    int  Turisticos1;
    float Area1, Pib1; 
-   unsigned long int Populacao1, resultado1;
+   unsigned long int Populacao1;
    float Densidade1,Carpita1;
-   resultado1= (Populacao1+Area1+Pib1+Turisticos1+(1/Densidade1));
+   double resultado1;
    
+   resultado1= (Populacao1+Area1+Pib1+Turisticos1+(1/Densidade1));
+   comparação = (Populacao1 > Populacao2),(Area1>Area2),(Pib1>Pib2),(Carpita1>Carpita2),(Turisticos1>Turisticos2),(Densidade1<Densidade2);
 
    //printf("--Dados da Carta 1--");
 
@@ -49,6 +51,7 @@ int main(){
    Carpita1 = (float)(Pib1/Populacao1);
    printf("Pib per Capita: %fReais\n", Carpita1);
    printf("Super poder da carta 1: %ld\n", &resultado1);
+   printf("estado venceu: carta")
 
 
 
