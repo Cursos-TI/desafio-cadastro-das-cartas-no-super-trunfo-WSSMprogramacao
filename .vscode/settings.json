@@ -1,6 +1,12 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "DESAFIO NIVEL AVENTUREIRO.C": "cpp"
+        "DESAFIO NIVEL AVENTUREIRO.C": "cpp",
+        "ESTRUTURAS SIMPLES DE DECISÃO.C": "cpp",
+        "1.1.C": "cpp",
+        "ESTRUT._DE_DECISAO_1.1.C": "cpp",
+        "ESTRUT._DE_DECISAO_1.2.C": "cpp",
+        "ESTRUT_DE_DECISAO_1.3.C": "cpp",
+        "ESTRUT_DE_DECISAO_1.4.C": "cpp"
     }
 }
