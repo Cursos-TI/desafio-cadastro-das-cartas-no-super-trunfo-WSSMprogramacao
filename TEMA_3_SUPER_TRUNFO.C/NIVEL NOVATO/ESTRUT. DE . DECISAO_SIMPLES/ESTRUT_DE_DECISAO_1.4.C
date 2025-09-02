@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int numero = 4, resultado;
+    int numero = 5, resultado;
 
     resultado = numero % 2;
 
