@@ -1,0 +1,40 @@
+#include<stdio.h>
+
+int main(){
+
+    int idade, dependentes;
+    float renda;
+
+    // A primeira condição é a idade do usuario ser de 18 a 65
+    // A segunda condição se renda do usuario ser menor que R$3000,00
+    // A terceira condicao verifica se o numerode dependentes e maior 2 
+
+    printf("Digite sua idade: \n");
+    scanf("%d", &idade);
+    printf("Digite sua renda: \n");
+    scanf("%f", &renda);
+    printf ("Digite quantos dependentes: \n");
+    scanf("%d", &dependentes);
+
+        if(idade >=18 && <65) {
+            if ( renda < 3000) {
+                 if(dependentes > 2) {
+                 printf("Você atende a todos os criterios");
+                } else {
+                 printf("Você nao atende aos criterios  de dependentes");   
+            
+             printf("Você não atende o criterio de renda");
+            } else {
+         printf("Voce não atende os criterios de idade");
+        } 
+        
+        
+         }
+
+
+
+
+
+
+
+}
