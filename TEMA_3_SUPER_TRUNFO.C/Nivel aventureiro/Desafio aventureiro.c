@@ -62,9 +62,6 @@ int main(){
    unsigned long int Populacao2;
    double resultado2;
    int Comparacao;
-
-   resultado2= (float)(Populacao2+Area2+Pib2+Turisticos2,Carpita2+(1/Densidade2));
-   
  
    printf("--Dados da Carta 2--\n");
    printf("Digite o nome o Estado da Carta 2: ");
@@ -102,15 +99,48 @@ int main(){
    printf("Pib per Capita: %f Reais\n", Carpita2);
    printf("Super poder da carta 2: %.15f\n", &resultado2);
 
-   Comparacao = (Populacao1 > Populacao2),(Area1>Area2),(Pib1>Pib2),(Carpita1>Carpita2),(Turisticos1>Turisticos2),
-   (resultado1>resultado2),(Densidade1<Densidade2);
-   
-   printf("*** CARTA 1 VENCE (1) , CARTA 2 VENCE (0) ***\n");
-   printf("População : Carta %d vence\n",Populacao1 > Populacao2);
-   printf("Area Km2: Carta %d vence\n",Area1 > Area2);
-   printf("Pib : Carta %d vence\n",Pib1 > Pib2);
-   printf("Pib Per Capita : Carta %d vence\n",Carpita1 > Carpita2);
-   printf("P.turisticos : Carta %d vence\n",Turisticos1 > Turisticos2);
-   printf("Densidade populacional : Carta %d vence\n",Densidade1 < Densidade2);
-   printf("A Maior Super Carta é : %d vence\n ", resultado1>resultado2);
+   resultado2= (float)(Populacao2+Area2+Pib2+Turisticos2,Carpita2+(1/Densidade2));
+
+
+if ( Populacao1>Populacao2) {
+   printf("População:**CartA 1 venceu!!**\n");
+} else {
+   printf("Populção:**CartA 2 venceu!!**\n");
+}
+if (Area1 > Area2) {
+   printf("Area km2::**CartA 1 venceu!!**\n");
+} else {
+   printf("Area km2::**CartA 2 venceu!!**\n");
+}
+if (Pib1 > Pib2) {
+   printf("Pib:**CartA 1 venceu!!**\n");
+} else {
+   printf("Pib:**CartA 2 venceu!!**\n");
+}
+if (Carpita1 > Carpita2) {
+   printf("Pib Per Capita:**CartA 1 venceu!!**\n");
+} else {
+   printf("Pib Per Capita:**CartA 2 venceu!!**\n");
+}
+if (Turisticos1 > Turisticos2) {
+   printf("P.Turisticos:**CartA 1 venceu!!**\n");
+} else {
+   printf("P.Turisticos:**CartA 2 venceu!!**\n");
+}
+if (Densidade1 < Densidade2) {
+   printf("Densidade Populacional:**CartA 1 venceu!!**\n");
+} else {
+   printf("Densidade Populacional:**CartA 2 venceu!!**\n");
+}
+if (resultado1 > resultado2){
+   printf("A maior super carta:**CartA 1 venceu!!**\n");
+} else {
+   printf("A maior super carta:**CartA 2 venceu!!**\n");
+}
+
+  
+
+
+
+   return 0;
 }
