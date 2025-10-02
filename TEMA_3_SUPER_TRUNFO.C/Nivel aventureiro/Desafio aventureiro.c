@@ -124,8 +124,10 @@ if (Carpita1 > Carpita2) {
 }
 if (Turisticos1 > Turisticos2) {
    printf("P.Turisticos:**CartA 1 venceu!!**\n");
-} else {
+} else if (Turisticos1 == Turisticos2) {
    printf("P.Turisticos:**CartA 2 venceu!!**\n");
+} else {
+   printf("P.Turidticos:**Empate entre cartas!!**");
 }
 if (Densidade1 < Densidade2) {
    printf("Densidade Populacional:**CartA 1 venceu!!**\n");
