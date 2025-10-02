@@ -1,0 +1,23 @@
+#include <stdio.h>
+ int main(){
+
+    int condicao1,condicao2;
+    
+    //**estrutura aninhada**
+
+    if (condicao1) {
+       if (condicao2) {
+           //codigo a ser executado se condicao1 for falso e condicao2 for verdadeiro    
+       }
+    
+ }
+
+    //**estrutura encadeada**
+
+    if (condicao1) {
+        //Codigo a ser executado se condicao1 for verdadeiro
+    } else if ( condicao2) {
+        //Codigo a ser executado se condicao1 for falso e condicao2 for verdadeiro
+    } else {
+        //codigo a ser executados se todas condicoes anterioresfor falso
+    }
