@@ -1,0 +1,39 @@
+#include<stdio.h>
+
+int main(){
+
+/*O programa que verifica se uma pessoa esta qualifificada para um desconto
+especialcom base na idade e na renda mensal. 
+  A pessoa deve ter mais de 60 anos ou menos de 18 anos e ter renda menasal
+abaixo de R$ 2.0000,00*/
+
+int idade;
+float renda;
+
+    printf("Digite sua idade:  ");
+    scanf("%d", &idade);
+
+    printf("Digite sua renda:  ");
+    scanf("%f",&renda);
+
+    if(idade <=18 || idade >=60) 
+    {
+    if(renda < 2000)
+        printf("Sua idade esta dentro dos criterios!");
+    } else {
+        printf("Sua idade nao atende os criterios!");
+    } else {
+        printf("Sua renda atende os criterios!");
+    } else {
+        printf("Sua renda nao atende os criterios!");
+    }
+
+
+
+
+
+
+
+
+
+}
