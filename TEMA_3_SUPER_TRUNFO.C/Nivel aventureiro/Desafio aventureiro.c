@@ -101,7 +101,7 @@ int main(){
 
    resultado2= (float)(Populacao2+Area2+Pib2+Turisticos2,Carpita2+(1/Densidade2));
 
-
+switch
 if ( Populacao1>Populacao2) {
    printf("População:**CartA 1 venceu!!**\n");
 } else {
